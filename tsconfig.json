@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "types": [ "bun-types" ],
+
+    "lib": ["esnext"],
+    "module": "esnext",
+    "target": "esnext",
+
+    "moduleResolution": "nodeNext",
+    "outDir": "./dist",
+
+    "allowJs": true,
+    "esModuleInterop": true,
+
+    "noErrorTruncation": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+  },
+  "include": [
+    "src/**/*",
+    "tests/**/*",
+  ],
+}
